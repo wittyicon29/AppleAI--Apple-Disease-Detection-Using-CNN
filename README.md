@@ -19,7 +19,7 @@ Rotten Apple
 Normal Apple
 
 # Methodology
-We used the Keras library in Python to build and train the CNN model. The model architecture consists of several convolutional layers followed by max pooling layers and dropout layers to prevent overfitting. The output from the convolutional layers is flattened and fed into a fully connected layer, which outputs the probability distribution over the four disease classes. We used the categorical cross-entropy loss function and the Adam optimizer to train the model for 150 epochs.
+We used the Keras library in Python to build and train the CNN model. The model architecture consists of several convolutional layers followed by max pooling layers and dropout layers to prevent overfitting. The output from the convolutional layers is flattened and fed into a fully connected layer, which outputs the probability distribution over the four disease classes. We used the categorical cross-entropy loss function and the RMSprop optimizer to train the model for 150 epochs.
 
 We split the dataset into training (60%), validation (40%), and test sets. We augmented the training data by randomly rotating, shifting, and zooming the images to increase the diversity of the training set and reduce overfitting.
 
