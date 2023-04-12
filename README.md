@@ -28,8 +28,3 @@ We split the dataset into training (60%), validation (40%), and test sets. We au
 The trained model achieved an accuracy of 91.5% on the training set and 67% on validation and test sets. The confusion matrix shows that the model was able to correctly classify the majority of the images, with the highest accuracy for healthy apples and the lowest accuracy for blotch and rotten apples. We also visualized the activations of the convolutional layers to gain insights into the features learned by the model.
 
 
-![png-transparent-tensorflow-artificial-intelligence-brand-logo-learning-flow-description-angle-text-orange-thumbnail](https://user-images.githubusercontent.com/99320225/231493825-9c48163a-8d46-4454-a791-5b9635e7aa7a.png)
-
-
-![png-transparent-scikit-learn-python-machine-learning-library-natural-language-toolkit-anaconda-animals-text-logo](https://user-images.githubusercontent.com/99320225/231493894-4c5cbc00-a660-4a9f-83fc-dfc9bbed99cc.png)
-
