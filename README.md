@@ -1,4 +1,4 @@
-# Apple-Disease-Detection-Using-CNN
+# AAppleAI - pple-Disease-Detection-Using-CNN
 
 This project aims to develop a machine learning model that can accurately detect and classify diseases in apple trees using Convolutional Neural Networks (CNNs). The model is trained on a dataset of images of healthy and diseased apple leaves, and is able to classify the images into one of several categories of diseases, including apple scab, blotch apple and rotten apple.
 
