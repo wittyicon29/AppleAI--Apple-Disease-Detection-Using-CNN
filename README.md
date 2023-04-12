@@ -8,6 +8,15 @@ Apple trees are susceptible to various diseases that can significantly reduce cr
 # Dataset
 The dataset used for training and testing the model is the taken from a randomized dataset consisting of variooous images over the internet , which contains 512 RGB images of healthy and diseased apple leaves, captured under different lighting conditions and angles. The dataset includes four classes of diseases: apple scab, blotch apple , rotten apple , and healthy apples. The images are labeled according to their disease category, with approximately equal numbers of images in each class.
 
+![DSC_3770-1defcwh](https://user-images.githubusercontent.com/99320225/231491114-1b6b2864-3f76-4255-ba25-f74793f261be.jpg) Scab Appple
+
+![istockphoto-685523256-612x612] Rotten Apple
+
+(https://user-i![28](https://user-images.githubusercontent.com/99320225/231491693-c97dcc42-6036-4b52-ad05-e4fd5b826564.jpg)
+mages.githubusercontent.com/99320225/231491545-0e3654da-d42b-42e8-8218-7d28c52c7a2c.jpg) Blotch Apple
+
+![AnyConv com__images (4)](https://user-images.githubusercontent.com/99320225/231491861-f5677af9-81be-4802-8b03-3ec0d8050f04.jpg) Normal Apple
+
 # Methodology
 We used the Keras library in Python to build and train the CNN model. The model architecture consists of several convolutional layers followed by max pooling layers and dropout layers to prevent overfitting. The output from the convolutional layers is flattened and fed into a fully connected layer, which outputs the probability distribution over the four disease classes. We used the categorical cross-entropy loss function and the Adam optimizer to train the model for 30 epochs.
 
