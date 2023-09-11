@@ -6,7 +6,7 @@ This project aims to develop a machine learning model that can accurately detect
 Apple trees are susceptible to various diseases that can significantly reduce crop yields and quality. Early detection and accurate diagnosis of these diseases are crucial for effective disease management and prevention. In recent years, machine learning techniques, particularly Convolutional Neural Networks (CNNs), have shown promising results in image classification tasks, including plant disease detection. In this project, we aim to develop a CNN model that can accurately detect and classify diseases in apple trees using images of apple leaves.
 
 # Dataset
-The dataset used for training and testing the model is the taken from a randomized dataset consisting of variooous images over the internet , which contains 512 RGB images of healthy and diseased apples, captured under different lighting conditions and angles. The dataset includes four classes of diseases: apple scab, blotch apple , rotten apple , and healthy apples. The images are labeled according to their disease category, with approximately equal numbers of images in each class.
+The dataset used for training and testing the model is the taken from a randomized dataset consisting of various images over the internet , which contains 512 RGB images of healthy and diseased apples, captured under different lighting conditions and angles. The dataset includes four classes of diseases: apple scab, blotch apple , rotten apple , and healthy apples. The images are labeled according to their disease category, with approximately equal numbers of images in each class.
 
 
 ![rotten-apple-isolated-on-black-260nw-1936327780](https://user-images.githubusercontent.com/99320225/231492290-888c2bd5-c6d1-46b8-b179-4bd27e61a599.jpg)
